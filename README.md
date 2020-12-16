@@ -1,4 +1,4 @@
-![backup](https://github.com/cmsonfire/cmsonfire-data/workflows/.github/workflows/backup.yml/badge.svg)
+![Backup Data](https://github.com/cmsonfire/cmsonfire-data/workflows/Backup%20Data/badge.svg)
 
 ## cmsonfire-data
 
