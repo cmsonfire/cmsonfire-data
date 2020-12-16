@@ -5,11 +5,15 @@ on:
     - cron: "0 8-22/2 * * *"
 jobs:
   build:
+    name: Backup
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: |
-          yarn cms
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Import Data
+        run: yarn cms
+      - name: Git Push
+        run: |
           git config user.name cmsonfire
           git add .
           git commit -m "generated"
