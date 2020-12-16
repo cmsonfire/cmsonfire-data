@@ -1,3 +1,5 @@
+![backup](https://github.com/cmsonfire/cmsonfire-data/workflows/.github/workflows/backup.yml/badge.svg)
+
 ## cmsonfire-data
 
 Git version of the Firestore version of the data for the cmsonfire.com site. Automatically backed up during publish.
