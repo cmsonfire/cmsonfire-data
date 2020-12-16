@@ -1,0 +1,17 @@
+{
+  "name": "cmsonfire-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "author": "Tony Alves (@talves)",
+  "license": "MIT",
+  "dependencies": {
+    "@cmsonfire/cli": "^0.1.2"
+  },
+  "scripts": {
+    "cms": "date > generated.txt && yarn cms:data",
+    "cms:data": "cmsonfire import cms-on-fire -k ./service-account-key.js -o . -c ./config.js -v -F",
+    "cms:data:export": "cmsonfire export cms-on-fire -k ./firebase-admin-key.js -c ./config.js"
+  }
+}

@@ -1,0 +1,17 @@
+on:
+  schedule:
+    # https://crontab.guru/#0_8-22/2_*_*_*
+    # At minute 0 past every hour from 8 through 22.
+    - cron: "0 8-22/2 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          yarn cms
+          git config user.name cmsonfire
+#         git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
