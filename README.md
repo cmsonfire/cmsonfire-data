@@ -1,4 +1,4 @@
-![Backup Data](https://github.com/cmsonfire/cmsonfire-data/workflows/Backup%20Data/badge.svg)
+[![Backup Data](https://github.com/cmsonfire/cmsonfire-data/workflows/Backup%20Data/badge.svg)][workflow]
 
 ## cmsonfire-data
 
@@ -41,3 +41,5 @@ Test the download using credentials
 ```bash
 yarn cms:data
 ```
+
+[workflow]: https://github.com/cmsonfire/cmsonfire-data/actions?query=workflow%3A%22Backup+Data%22
