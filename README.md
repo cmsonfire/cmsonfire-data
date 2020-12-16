@@ -8,7 +8,7 @@ To create this history repository:
 mkdir cmsonfire-data
 git init
 yarn init -y
-y add @cmsonfire/cli@latest
+yarn add @cmsonfire/cli@latest
 ```
 
 `package.json`
