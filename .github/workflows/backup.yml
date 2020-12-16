@@ -13,6 +13,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Import Data
         run: npm run-script cms
+        env:
+          GOOGLE_APPLICATION_ADMIN: ${{ secrets.GOOGLE_APPLICATION_ADMIN }}
       - name: Git Push
         run: |
           git config user.name cmsonfire
