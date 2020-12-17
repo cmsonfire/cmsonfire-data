@@ -2,6 +2,7 @@ name: Test Scheduler
 on:
   schedule:
   - cron: '*/30 * * * *'
+
 jobs:
   go:
     name: Backup
