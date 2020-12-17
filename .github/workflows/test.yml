@@ -1,0 +1,11 @@
+name: Test Scheduler
+on:
+  schedule:
+    - cron: '*/2 * * * *'
+jobs:
+  go:
+    name: Backup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        run: echo "Running every 5 min"
