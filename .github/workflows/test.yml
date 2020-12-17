@@ -5,8 +5,8 @@ on:
 
 jobs:
   go:
-    name: Backup
+    name: Test Cron
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        run: echo "Running every 5 min"
+        run: echo "Running every 1 hour on 30 min mark"
