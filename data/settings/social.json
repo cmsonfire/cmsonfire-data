@@ -1,0 +1,22 @@
+{
+  "types": [
+    {
+      "name": "twitter",
+      "label": "Twitter",
+      "hidden": false,
+      "url": "https://twitter.com/3_alves"
+    },
+    {
+      "name": "instagram",
+      "label": "Instagram",
+      "hidden": true,
+      "url": "https://www.instagram.com/cmsonfire/"
+    },
+    {
+      "name": "facebook",
+      "label": "Facebook",
+      "hidden": false,
+      "url": "https://www.facebook.com"
+    }
+  ]
+}

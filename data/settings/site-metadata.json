@@ -1,0 +1,13 @@
+{
+  "twitterUsername": "@3_alves",
+  "author": "Tony Alves",
+  "url": "https://cmsonfire.com",
+  "titleTemplate": "%s | Tony Alves",
+  "organization": "ADARTA Inc.",
+  "owner": "Tony Alves",
+  "facebookAppID": "facebookID",
+  "title": "CMS on Fire",
+  "image": "/firebasestorage.googleapis.com/v0/b/cms-on-fire.appspot.com/o/images/icon-logo-1600x1600.png",
+  "description": "Description placeholder",
+  "twitterCardType": "summary_large_image"
+}

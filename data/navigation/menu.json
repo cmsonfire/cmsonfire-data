@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "path": "/posts",
+      "hidden": false,
+      "label": "Information",
+      "type": "route",
+      "heading": "default"
+    },
+    {
+      "path": "/posts/",
+      "hidden": true,
+      "label": "Blog",
+      "type": "route",
+      "heading": "default"
+    },
+    {
+      "path": "/test",
+      "hidden": true,
+      "label": "Test",
+      "type": "route",
+      "heading": "default"
+    },
+    {
+      "label": "About",
+      "hidden": false,
+      "type": "page",
+      "path": "/about/",
+      "heading": "default"
+    }
+  ]
+}

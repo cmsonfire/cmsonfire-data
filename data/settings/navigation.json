@@ -1,0 +1,38 @@
+{
+  "menu": {
+    "items": [
+      {
+        "path": "/posts/",
+        "hidden": false,
+        "name": "blog",
+        "label": "Blog",
+        "title": "",
+        "content": "## **Should this be required?**",
+        "type": "route",
+        "image": "/media/fountain-pen-close-up-new.svg",
+        "description": "## **_Redvines!  Tequila!   Donuts!  _**\n\nNot really. It's the blog."
+      },
+      {
+        "label": "About",
+        "title": "",
+        "name": "about",
+        "image": "/media/quill-drawing-a-line.svg",
+        "type": "page",
+        "path": "/about/",
+        "description": "## _Glad you came?_\n\nWe are glad you did.",
+        "content": "#### Who are WE?\n\nJust a fake company doing fake things. \n\n\\- Founder\n\n#### Why partner with us?\n\n* Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.\n* Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to."
+      },
+      {
+        "path": "/work/",
+        "hidden": true,
+        "name": "work",
+        "label": "Work",
+        "title": "Work",
+        "content": "Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.\n\nTrysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.",
+        "type": "page",
+        "image": "/media/fountain-pen-close-up.svg",
+        "description": "This page is about ... work we do."
+      }
+    ]
+  }
+}

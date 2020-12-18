@@ -1,0 +1,22 @@
+{
+  "people": [
+    {
+      "name": "Tony Alves",
+      "intro": "Coded by",
+      "url": "https://www.3alves.com",
+      "attribution_hidden": false
+    },
+    {
+      "name": "Netlify",
+      "intro": "Hosted on",
+      "url": "https://netlify.com",
+      "attribution_hidden": false
+    },
+    {
+      "name": "Toast",
+      "intro": "Coded using",
+      "url": "https://toast.dev",
+      "attribution_hidden": false
+    }
+  ]
+}

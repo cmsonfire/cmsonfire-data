@@ -1,0 +1,15 @@
+{
+  "title": "Toast and CMS on Fire",
+  "author": "Tony Alves",
+  "description": "## Just some markdown for our description\n\nGrab a ☕ and tell us about your project.",
+  "contact": {
+    "name": "Our Company Name, Inc.",
+    "address": "505 Somewhere Ave. Suite X",
+    "city": "Huntington Beach",
+    "state": "CA",
+    "zipcode": "92648",
+    "phone": "(555) 555-1234",
+    "email": "info@example.com",
+    "hidden": false
+  }
+}

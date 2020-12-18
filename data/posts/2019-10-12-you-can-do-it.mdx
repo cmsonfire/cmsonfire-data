@@ -1,0 +1,85 @@
+---
+draft: true
+title: You can do it
+slug: /you-can-do-it
+date: 2019-10-03T14:30:00-08:00
+update: 2020-12-09T22:46:08.045Z
+description: You can do it
+categories:
+  - test
+keywords:
+  - example
+  - garden
+image: /images/social/you-can-do-it.png
+author: talves
+---
+
+export const thisValue = "This is a value string";
+
+## I know that you can.
+
+<Box
+  as="div"
+  style={{
+    bg: "#00000020",
+    mt: [1, 2, 3],
+    fontSize: "1.25em",
+    borderRadius: [4, 8, 12],
+  }}
+>
+  {`<Box as='p' style={{bg: '#00000020', mt: [1,2,3], fontSize: '1.25em'}}>Text here</Box>`}
+</Box>
+<Box style={{ padding: 50, fontSize: "1.25em" }}>{thisValue}</Box>
+
+This is just plain text written in an mdx file and should come out to be a paragraph.
+
+Second paragraph! With some **bold text** inside...
+
+```javascript {4-5,8}
+var codeBlock = {};
+codeBlock.help = "help me";
+
+var description = "This is just a test of code highlighting";
+console.log(description);
+
+function thisIsAfunction() {
+  return "yep";
+}
+```
+
+Here is what the content file looks like for this post
+
+````markdown
+---
+draft: false
+title: You can do it
+slug: /garden/you-can-do-it
+date: 2019-10-03T14:30:00-08:00
+author: talves
+---
+
+export const thisValue = 'This is a value string';
+
+## I know that you can.
+
+<Box as='div' style={{bg: '#00000020', mt: [1,2,3], fontSize: '1.25em', borderRadius:[4,8,12]}}>
+{`<Box as='p' style={{bg: '#00000020', mt: [1,2,3], fontSize: '1.25em'}}>Text here</Box>`}
+</Box>
+<Box style={{padding: 50, fontSize: '1.25em'}}>{thisValue}</Box>
+
+This is just plain text written in an mdx file and should come out to be a paragraph.
+
+Second paragraph! With some **bold text** inside...
+
+\/```javascript {4-5,8}
+var codeBlock = {};
+codeBlock.help = 'help me';
+
+var description = 'This is just a test of code highlighting'
+console.log(description);
+
+function thisIsAfunction() {
+return 'yep'
+}
+\/```
+````
